@@ -1,0 +1,23 @@
+# Node modules (si usas Tailwind desde npm)
+node_modules/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar todo el contenido de dist excepto output.css
+dist/*
+!dist/output.css
+
+# Archivos de caché o logs
+*.log
+*.cache
+
+# Configuración de editor y sistema operativo
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar archivos de entorno si usas configuraciones locales
+.env
